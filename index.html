@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="left">
             <a href="#">About</a>
             <a href="#">Store</a>
@@ -16,26 +16,34 @@
         <div class="right">
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <a href="#" class="sign-in">Sign in</a>
+            <a href="#" id="sign-in">Sign in</a>
         </div>
     </header>
+
     <section id="main">
         <img src="images/googlelogo.png" alt="Google logo">
-        <form action="submit">
+        <div class="form">
+            <form action="submit">
             <input type="text" class="search-bar">
-        </form>
-        <a href="#"><div class="g-btn">Google Search</div></a>
-        <a href="#"><div class="g-btn">I'm Feeling Lucky</div></a>
+            </form>
+        </div>
+        <div id="g-btns">
+            <a href="#"><div class="g-btn">Google Search</div></a>
+            <a href="#"><div class="g-btn">I'm Feeling Lucky</div></a>
+        </div>
     </section>
-    <footer>
+
+    <footer id="footer"> 
         <div class="left">
             <a href="#">Advertising</a>
             <a href="#">Business</a>
             <a href="#">How Search Works</a>
         </div>
-        <a href="#"><div class="right">Privacy</div></a>
-        <a href="#"><div class="right">Terms</div></a>
-        <a href="#"><div class="right">Settings</div></a>
+        <div class="right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>  
     </footer>
     
 </body>
